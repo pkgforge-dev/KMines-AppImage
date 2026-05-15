@@ -18,6 +18,7 @@ export QT_DIR=qt6
 quick-sharun /usr/bin/kmines /usr/share/kmines
 
 # Additional changes can be done in between here
+echo 'ANYLINUX_DO_NOT_LOAD_LIBS=libpipewire-0.3.so*:${ANYLINUX_DO_NOT_LOAD_LIBS}' >> ./AppDir/.env
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage

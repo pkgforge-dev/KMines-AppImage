@@ -14,7 +14,7 @@ export DEPLOY_QT=1
 export QT_DIR=qt6
 
 # Deploy dependencies
-quick-sharun /
+quick-sharun /usr/bin/kmines
 
 # Additional changes can be done in between here
 

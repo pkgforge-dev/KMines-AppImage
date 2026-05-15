@@ -13,7 +13,6 @@ export DESKTOP=/usr/share/applications/org.kde.kmines.desktop
 export STARTUPWMCLASS=org.kde.kmines
 export DEPLOY_QT=1
 export QT_DIR=qt6
-export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kmines /usr/share/kmines

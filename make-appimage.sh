@@ -11,8 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/kmines.png
 export DESKTOP=/usr/share/applications/org.kde.kmines.desktop
 export STARTUPWMCLASS=org.kde.kmines
-export DEPLOY_QT=1
-export QT_DIR=qt6
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kmines /usr/share/kmines
